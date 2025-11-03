@@ -1,0 +1,87 @@
+prefix: "&8[&4AAC&8] &f"
+
+no-permission: "&4Bu komutu kullanmak için yetkiniz bulunuyor"
+player-only: "Bu komut sadece oyuncular tarafından kullanılabilir"
+player-not-found: "&cOyuncu bulunamadı"
+cannot-report-self: "&4Kendinizi raporlayamazsınız"
+report-cooldown: "&fRapor göndermek için &6{time} &fsaniye beklemelisiniz"
+report-sent: "Rapor başarıyla gönderildi"
+
+commands:
+  no-permission: "&cBu komutu kullanmak için yetkiniz yok"
+  aacsystem:
+    usage: "&4Yanlış Kullanıyorursunuz Doğrusu /aacsystem reload Veya help Kullanmak"
+    unknown-subcommand: "&cBilinmeyen alt komut /aacsystem reload"
+    reload:
+      success: "&aAAC konfigürasyonu ve dil dosyları başarıyla yeniden yüklendi"
+      error: "&cAAC konfigürasyonu yeniden yüklenirken bir hata oluştu"
+    help:
+      header: "&6AAC Sistem Komutları"
+      reload: "&6/aacsystem reload &e- &7Config.yml ve dil dosyalarını yeniden yükler"
+      help: "&6/aacsystem help &e- &7Bu yardım menüsünü gösterir"
+
+gui:
+  glass-name: " "
+  back-button: "&cGeri"
+  selected: "&2Seçildi"
+  click-to-select: "&cSeçmek için tıklayın"
+  send-report: "&2Raporu Gönder"
+  send-report-desc: "Seçilen sebep ile raporu gönder"
+  click: "&2Göndermek İçin Tıklayın"
+  disabled: "Devre dışı"
+  select-reason-first: "Önce bir rapor sebebi seçin"
+  
+  report-player:
+    title: "Oyuncu Seç"
+    player-head-lore: "&7Raporlamak için tıkla"
+    next-page: "&aİleri"
+    previous-page: "&cGeri"
+  
+  report-reasons:
+    title: "Rapor Sebebi Seç"
+    hacking: "&cHile Kullanımı"
+    hacking-lore: "&7Bu oyuncuyu hile kullanımı sebebiyle raporla"
+    swearing: "&cKüfür"
+    swearing-lore: "&7Bu oyuncuyu küfür sebebiyle raporla"
+    inappropriate-name: "&cUygunsuz İsim"
+    inappropriate-name-lore: "&7Bu oyuncuyu uygunsuz isim sebebiyle raporla"
+    spam: "&cSpam"
+    spam-lore: "&7Bu oyuncuyu spam sebebiyle raporla"
+    griefing: "&cGriefing"
+    griefing-lore: "&7Bu oyuncuyu griefing sebebiyle raporla"
+    other: "&cDiğer"
+    other-lore: "&7Bu oyuncuyu diğer sebebiyle raporla"
+  
+  reports:
+    title: "Raporlar"
+    reporter: "&7Rapor Eden"
+    reason: "&7Sebep"
+    date: "&7Tarih"
+    time: "&7Saat"
+    last-messages: "&7Son Mesajlar"
+    click-to-view: "&cDetaylı incelemek için tıklayın"
+    shift-right-click-to-delete: "&cSilmek için Shift + Sağ Tık"
+    report-item:
+      name: "&6Rapor - {reported}"
+      lore:
+        - "&7Raporlayan: &6{reporter}"
+        - "&7Sebep: &6{reason}"
+        - "&7Tarih: &6{date}"
+        - "&7Saat: &6{time}"
+        - ""
+        - "&7Son Mesajlar:"
+        - "{messages}"
+        - ""
+        - "&cSilmek için Shift + Sağ Tık"
+    no-reports: "&cHenüz rapor bulunmuyor"
+    no-messages-found: "&6Mesaj bulunamadı"
+  
+  aacwatch:
+    title: "Oyuncu İzleme Menüsü"
+    player-lore: "&7İzlemek için tıkla"
+    player-head-lore: "&7İzlemek için tıkla"
+    previous-page: "&cÖnceki Sayfa"
+    next-page: "&aSonraki Sayfa"
+
+aacwatch:
+  teleported: "&a{player} &foyuncusuna ışınlandınız"

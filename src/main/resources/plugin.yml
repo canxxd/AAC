@@ -1,0 +1,47 @@
+name: AAC
+version: ${version}
+main: com.aac.plugin.AAC
+api-version: 1.21
+folia-supported: true
+authors: [CanReolo]
+description: Çok Dil Destekli gelişmiş aac Modül Eklentisi
+website: https://github.com/canxxd
+commands:
+  raporla:
+    description: Bir oyuncuyu raporlamak için
+    usage: /raporla
+  raporlar:
+    description: Raporları görüntülemek için aac
+    usage: /raporlar
+  aacwatch:
+    description: Oyuncuları izlemek için aac
+    usage: /aacwatch
+  aacsystem:
+    description: AAC sistem yönetimi op yönetici
+    usage: /aacsystem reload | help
+
+permissions:
+  aac.report:
+    description: Oyuncuları raporlamaya izin verir
+    default: true
+  aac.reports.view:
+    description: Raporları görüntülemeye izin verir
+    default: op
+  aac.reports.manage:
+    description: Raporları yönetmeye izin verir
+    default: op
+  aac.watch:
+    description: Oyuncuları izlemeye izin verir
+    default: op
+  aac.system.reload:
+    description: AAC config apılandırmasını yeniden yüklemeye izin verir
+    default: op
+  aac.admin:
+    description: AAC için tüm izinler
+    default: op
+    children:
+      aac.report: true
+      aac.reports.view: true
+      aac.reports.manage: true
+      aac.watch: true
+      aac.system.reload: true

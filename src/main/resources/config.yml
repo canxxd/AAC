@@ -1,0 +1,70 @@
+#  - aac.report           : Allows reporting players
+#  - aac.reports.view     : Allows viewing reports (reports GUI)
+#  - aac.reports.manage   : Allows managing reports (delete, moderate)
+#  - aac.watch            : Allows using AAC Watch (player heads GUI)
+#  - aac.system.reload    : Allows reloading config and languages
+#  - aac.admin            : All AAC permissions (includes all above)
+
+#  - aac.report           : Oyuncu raporlamaya izin verir
+#  - aac.reports.view     : Raporları görüntülemeye izin verir
+#  - aac.reports.manage   : Raporları yönetmeye izin verir silme moderasyon
+#  - aac.watch            : AAC Watch menüsünü ve tp kullanmaya izin verir
+#  - aac.system.reload    : Config ve dil dosyalarını yeniden yüklemeye izin verir
+#  - aac.admin            : Tüm AAC yetkileri yukarıdakilerin hepsini içerir
+
+# AAC Configuration
+# AAC Konfigürasyonu
+# Supported Languages: en, tr,
+# Desteklenen Diller: en, tr,
+language: "en"
+
+# Report cooldown in seconds
+# Rapor bekleme süresi (saniye)
+report-cooldown: 3
+
+# Gui Settings
+# Gui Ayarları
+gui:
+  report-player:
+    # Glass slots for decoration 54 slot inventory
+    # cam slotları 54 slotlu envanter
+    glass-slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 45, 46, 47, 48, 50, 51, 52, 53]
+    # Player head slots
+    # Oyuncu kafası slotları
+    player-slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    # Navigation slots
+    # Navigasyon slotları
+    next-page-slot: 50
+    previous-page-slot: 48
+  
+  report-reasons:
+    # Glass slots for decoration 37 slot inventory
+    # Dekorasyon için cam slotları 37 slotlu envanter
+    glass-slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36]
+    # Reason item slots
+    # Sebep item slotları
+    reason-slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34]
+  
+  reports:
+    # Glass slots for decoration 54 slot inventory
+    # Dekorasyon için cam slotları 54 slotlu envanter
+    glass-slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 45, 46, 47, 48, 50, 51, 52, 53]
+    # Report item slots
+    # Rapor item slotları
+    report-slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    # Navigation slots
+    # Navigasyon slotları
+    next-page-slot: 50
+    previous-page-slot: 48
+  
+  aacwatch:
+    # Glass slots for decoration 54 slot inventory
+    # Dekorasyon için cam slotları 54 slotlu envanter
+    glass-slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 45, 46, 47, 48, 50, 51, 52, 53]
+    # Player head slots
+    # Oyuncu kafası slotları
+    player-slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    # Navigation slots
+    # Navigasyon slotları
+    next-page-slot: 50
+    previous-page-slot: 48
