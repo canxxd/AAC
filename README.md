@@ -2,6 +2,10 @@
 <img width="609" height="459" alt="Ekran görüntüsü 2025-11-03 111021" src="https://github.com/user-attachments/assets/4c4b107f-7811-4d93-a8c7-671b5d17c656" />
 <img width="520" height="398" alt="Ekran görüntüsü 2025-11-03 110830" src="https://github.com/user-attachments/assets/a13940de-e089-48af-ae51-10c67100dddc" />
 <img width="520" height="281" alt="Ekran görüntüsü 2025-11-03 110910" src="https://github.com/user-attachments/assets/6c69f27f-f8e1-40c5-b6b7-2ca101a71ed9" />
+<img width="520" height="390" alt="Ekran görüntüsü 2025-11-03 110837" src="https://github.com/user-attachments/assets/65b1d2c9-dfc3-4ff9-b137-ab61ef03958d" />
+<img width="623" height="377" alt="Ekran görüntüsü 2025-11-03 110926" src="https://github.com/user-attachments/assets/2a48c01a-0d09-415c-aed6-ea5592d43035" />
+
+
 
 
 Raporlama rapor yönetimi ve oyuncu izleme işlemleri için GUI tabanlı Türkçe/İngilizce destekli bir eklenti
