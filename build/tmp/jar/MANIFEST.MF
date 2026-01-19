@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: AAC
+Implementation-Version: 2.0.2
+Folia-Supported: true
+
