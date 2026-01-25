@@ -9,10 +9,6 @@ Yönetici Komutları
 - /aacsystem alerts gelen raporları mesaj olarak yöneticiye bildirir
 - /aacsystem reload config ve dil dosyalarını reloadlar
 
-genel işlevliği hk
-bu eklenti küçük ama işlevli bir eklenti kullanmakta zorluk çekmezsiniz
-ancak eksik yerler olduğunu düşünüyorsanız discorddan yazabilirsiniz canreolo Dc nick
-
 Bu eklenti başta kişisel kullanım için yapıldı ancak sonradan açık kaynak yayınlamaya karar verdim.
 
 Eklenti Hakkında Görseller
