@@ -1,9 +1,9 @@
 AAC Eklentisi Bir Raporlama Eklentisidir 
 Oyuncular İstediği Kişileri Raporlayabilirler. Eklenti async tabanlı
 
-- /raporla ile rapor Menüsü açılır 
-- /raporlar ile gelen raporlar menüsü açılır
-- /aacwatch ile oyuncuları izleme menüsü açılır
+- /raporla ---
+- /raporlar ---
+- /aacwatch ---
 
 Yönetici Komutları
 - /aacsystem alerts gelen raporları mesaj olarak yöneticiye bildirir
