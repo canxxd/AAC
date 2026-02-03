@@ -11,7 +11,7 @@
 # Multi Dil Özelliği Şuanki Desteklenen diller - en - tr -
 language: "en"
 report-cooldown: 10
-alerts-auto-enable-on-join: false
+alerts-auto-enable-on-join: false #op'ler için geçerli
 
 # Menülerin Slot Ayarlamaları. istediğiniz gibi ayarlayabilir değiştirebilirsiniz
 # ancak 54 slot menüden taşmasın yoksa eklenti kendini kapatabilir.
