@@ -9,7 +9,7 @@
 ####################################################
 
 # Multi Dil Özelliği Şuanki Desteklenen diller - en - tr -
-language: "en"
+language: "tr"
 report-cooldown: 10
 alerts-auto-enable-on-join: false #op'ler için geçerli
 
