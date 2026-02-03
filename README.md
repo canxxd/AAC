@@ -25,8 +25,6 @@ Eklenti Hakkında Görseller
 
 <img width="832" height="711" alt="Ekran görüntüsü 2026-01-19 194824" src="https://github.com/user-attachments/assets/ae859213-933f-460e-8d7d-a318d073ce15" />
 
-<img width="690" height="649" alt="Ekran görüntüsü 2026-01-19 194831" src="https://github.com/user-attachments/assets/24a57cb5-1686-44b8-b1f8-f4db91eb4598" />
-
 <img width="592" height="693" alt="Ekran görüntüsü 2026-01-19 195013" src="https://github.com/user-attachments/assets/0ba96058-b13c-4431-99c1-7385880c88cc" />
 
 Eklentinin Resimleri Bu Şekilde Folia Ve Paper Tam Destek Sağlıyoruz.
