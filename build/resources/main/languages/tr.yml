@@ -1,9 +1,3 @@
-###############################################
-#                                             #
-#             TÜRKÇE DİL DESTEĞİ              #
-#                                             #
-###############################################
-
 prefix: "&8[&4AAC&8] &f"
 
 no-permission: "&4Bu komutu kullanmak için yetkiniz bulunuyor"
@@ -77,18 +71,6 @@ gui:
     last-messages: "&6Son Mesajlar"
     click-to-view: "&fDetaylı incelemek için tıklayın"
     shift-right-click-to-delete: "&4Silmek için Shift + Sağ Tık"
-    report-item:
-      name: "&fRapor - {reported}"
-      lore:
-        - " &7- &fRaporlayan: &6{reporter}"
-        - " &7- &fSebep: &6{reason}"
-        - " &7- &fTarih: &6{date}"
-        - " &7- &fSaat: &6{time}"
-        - ""
-        - "&6Son Mesajlar:"
-        - "&f{messages}"
-        - ""
-        - "&4Silmek için Shift + Sağ Tık"
     no-reports: "&cHenüz rapor bulunmuyor"
     no-messages-found: "&4Mesaj bulunamadı"
   
